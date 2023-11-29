@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<language= "NL">
+<head>
+<title> Natuurkunde voor jou </title>
+<META charset="utf-8">
+<link rel="stylesheet" href="nat.css" type="text/css" />
+<script type="text/javascript" src="javascript.js"> </script>
+<link rel="shortcut icon" href="icon.ico" />
+<META name="keywords" content="fiets, zadel, 40max">
+<META name="description" content="beschrijvingwebsite">
+</head>
+<body>
+<title> Ayoub Sihmidi </title>
+	<link rel="stylesheet" type="text/css" href="nat.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>
+	$(document).ready(function () {	
+	$('#nav li').hover(
+		function () {
+			//submenu laten zien
+			$('ul', this).stop().slideDown(100);
+		}, 
+		function () {
+			//submenu verbergen
+			$('ul', this).stop().slideUp(100);			
+		}
+	);
+});
+</script>
+</head>
+<body>
+<h1> Cirkelbewegingen </h1>
+<!-- Menu -->
+<ul id="nav">
+	<li><a href="nat.html">Home</a></li>
+	<li><a href="#">Klassieke mechanica</a>
+		<ul>
+			<li><a href="krachtbeweging.html">Kracht & Beweging</a></li>
+			<li><a href="Cirkelbewegingen">Cirkelbewegingen</a></li>
+			<li><a href="Energie.html">Energie</a></li>
+		</ul>
+	<li><a href="contact.html">Contact</a>
+		<div class="clear"></div>
+</ul>
+
+<div style="color:white;">
+  <h3>This is a heading</h3>
+  <p>This is a paragraph.</p>
+</div>
+</body>
+</html>
