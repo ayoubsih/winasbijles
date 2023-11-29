@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<language= "NL">
+<head>
+<title> Website Winas Bijles </title>
+<META charset="utf-8">
+<link rel="stylesheet" href="styles.css" type="text/css" />
+<script type="text/javascript" src="javascript.js"> </script>
+<META name="keywords" content="natuurkunde, scheikunde, wiskunde">
+<META name="description" content="beschrijvingwebsite">
+</head>
+<body>
+<title> Ayoub Sihmidi </title>
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script> 
+	$(document).ready(function () {	
+	$('#nav li').hover(
+		function () {
+			//submenu laten zien
+			$('ul', this).stop().slideDown(100);
+		}, 
+		function () {
+			//submenu verbergen
+			$('ul', this).stop().slideUp(100);			
+		}
+	);
+});
+</script>
+</head>
+<body>
+<a href="index.html"><img src="Winaslogo.png"></a>
+<!-- Menu -->
+<ul id="nav">
+	<li><a href="index.html">Home</a></li>
+	<li><a href="#">Diensten</a>
+		<ul>
+			<li><a href="#">Bijles</a></li>
+			<li><a href="#">Examentraining</a></li>
+		</ul></li>
+	<li><a href="#">Boek een bijles</a></li>
+	<li><a href="#">Veelgestelde vragen</a></li>
+	<li><a href="contact.html">Contact</a></li>
+</ul>
+
+		
+</body>
+</html>
