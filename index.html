@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<language= "NL">
+<head>
+<title> Website Winas Bijles </title>
+<META charset="utf-8">
+<link rel="stylesheet" href="styles.css" type="text/css" />
+<script type="text/javascript" src="javascript.js"> </script>
+<META name="keywords" content="natuurkunde, scheikunde, wiskunde">
+<META name="description" content="beschrijvingwebsite">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Ayoub Sihmidi </title>
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script> 
+	$(document).ready(function () {	
+	$('#nav li').hover(
+		function () {
+			//submenu laten zien
+			$('ul', this).stop().slideDown(100);
+		}, 
+		function () {
+			//submenu verbergen
+			$('ul', this).stop().slideUp(100);			
+		}
+	);
+});
+</script>
+</head>
+<body>
+<a href="index.html" id = "logo"><img src="Winaslogo-removebg-preview.png"></a>
+<!-- Menu -->
+<ul id="nav">
+	<li><a href="index.html">Home</a></li>
+	<li><a href="#">Diensten</a>
+		<ul>
+			<li><a href="#">Bijles</a></li>
+			<li><a href="#">Examentraining</a></li>
+		</ul></li>
+	<li><a href="#">Doe een lesaanvraag</a></li>
+	<li><a href="#">Veelgestelde vragen</a></li>
+	<li><a href="#">Contact</a></li>
+</ul>
+<div class="title-bg"> 
+	<img src="achtergrond.jpg" >
+	<div class ="title-container">
+		<h1 class="title">
+			WINAS BIJLES
+		</h1>
+		<div class="undertitle-container">
+			<h2 class = "undertitle">
+				Winas Bijles specialiseert zich in het geven van op maat online bijles 
+				voor alle niveaus en klassen van het voortgezet onderwijs in de bèta vakken (wiskunde, natuurkunde en scheikunde)
+			</h2>
+			<a href="#">
+				<button>
+					Doe een lesaanvraag
+				</button>
+			</a>
+		</div>
+	
+	</div>
+	
+</div>
+<div class = "diensten-container">
+	<div class="diensten-titel">
+		<h1> Onze diensten </h1>
+	</div>
+	<div class="diensten-flex">
+		<div class="diensten" id="box1">
+			<img src="diensten-bijles.jpg">
+		</div>
+		<div class="diensten" id="box2">
+			<h1>Online Bijles</h1>
+			<p>Je neemt bijles wanneer je voor een bepaald vak structureel minder goed scoort en ondanks de tijd die je in je huiswerk en in het studeren investeert, 
+				alsnog het gevoel hebt dat je de stof niet helemaal onder de knie hebt. Onze docenten helpen je om de stof beter te begrijpen en bieden je tools om ook 
+				op het langere termijn écht beter te worden in een vak. Onze docenten geven al jaren lang online bijles en hebben zodoende methodes ontwikkeld om een 
+				online les even leerzaam en interactief te maken. Maak het mee tijdens een gratis proefles!</p>
+		</div>
+		<div class="diensten" id="box3">
+			<h1> Se, ce en ccvx-trainingen</h1>
+			<p>Heb jij binnenkort een schoolexamen, het centraal examen of maak jij binnenkort één van de ccvx-voortentamens? Wij bieden online trainingen aan waarin gespecialiseerde 
+				docenten de relevante stof en opgaven behandelen. Deze trainingen zijn een goede basis voor jouw voorbereiding. Staat jouw examen er niet tussen? Neem dan contact met ons op.</p>
+		</div>
+		<div class="diensten" id="box4"> 
+			<img src="diensten-training.jpeg">
+		</div>
+	</div>
+	<div class="diensten-inschrijven">
+		<p>Heb je nog vragen? Stel ze gerust via de knop hieronder.</p>
+		<a href="#">
+			<button>
+				Neem contact op
+			</button>
+		</a>
+	</div>
+</div>
+<div class = "reviews-container">
+	<div>
+		<p>Ayoub is een goede bijlesdocent! Hij legt goed uit en is super geduldig en enthousiast, top!!</p>
+		<p>Meryam</p>
+	</div>
+</div>
+<div class = "contact-container">
+	<div class="contact-titel">
+		<h1> Neem contact op </h1>
+	</div>
+</div>
+<div class = "kvk-container">
+	<p>Tel: 0636283602</p>
+	<p>KvK: 75897474</p>
+	<p>Mail: ayoub@winas.nl</p>
+</div>
+<div class = "socialmedia-container">
+	<p>©2023 door Winas Bijles.</p>
+</div>
+</body>
+</html>
